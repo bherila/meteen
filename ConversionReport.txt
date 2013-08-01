@@ -1,0 +1,78 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file mt.bombness.com.vbproj at September 03 2006, 09:52:54.
+
+=========================ERRORS===================
+ERROR: The following files were not migrated because they were not found in the project file or the associated 'BuildAction' is set to 'None'.
+You may need to exclude these files from the project after the conversion process in order to compile your web site: 
+File List == meteenpage.vb.
+
+=========================WARNINGS=================
+Warning: The code file code\language.vb is not valid code file.    code\language.vb
+ERROR: Unable to parse file code\language.vb.
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Added folder Web References\Bombness\MeTeen\com\statsxp\svc.
+Moved file Web References\com.statsxp.svc\StatsXP.disco to the Web References\Bombness\MeTeen\com\statsxp\svc\ directory.
+Moved file Web References\com.statsxp.svc\StatsXP.wsdl to the Web References\Bombness\MeTeen\com\statsxp\svc\ directory.
+Warning: Renamed file Web References\com.statsxp.svc\Reference.map to file StatsXP.discomap.
+Moved file Web References\com.statsxp.svc\StatsXP.discomap to the Web References\Bombness\MeTeen\com\statsxp\svc\ directory.
+Web.Config: <httpHandlers> section: removed mt.bombness.com.
+Removed attribute Codebehind from file Global.asax.
+Removed attribute Codebehind from file newthread.aspx.
+Warning: Access level of 'Bombness.MeTeen.newthread' changed to 'Partial' in file newthread.aspx.vb (Line 3).
+Updated the attribute 'CodeFileBaseClass' with value 'Bombness.MeTeen.Template' in the file 'newthread.aspx'.
+Warning: Removed comment lines before designplaceholder declaration from file newthread.aspx.vb.    newthread.aspx.vb (Line 13)
+Removed attribute Codebehind from file photos-upload.aspx.
+Warning: Access level of 'Bombness.MeTeen.photos_upload' changed to 'Partial' in file photos-upload.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file photos-upload.aspx.vb.    photos-upload.aspx.vb (Line 13)
+'Reference' tag with reference to '~/request.aspx' added to file photos-upload.aspx.
+Removed attribute Codebehind from file profile-image.aspx.
+Warning: Access level of 'Bombness.MeTeen.profile_image' changed to 'Partial' in file profile-image.aspx.vb (Line 8).
+Warning: Removed comment lines before designplaceholder declaration from file profile-image.aspx.vb.    profile-image.aspx.vb (Line 18)
+'Reference' tag with reference to '~/request.aspx' added to file profile-image.aspx.
+Removed attribute Codebehind from file request.aspx.
+Warning: Access level of 'Bombness.MeTeen.request' changed to 'Partial' in file request.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file request.aspx.vb.    request.aspx.vb (Line 13)
+Removed attribute Codebehind from file start.aspx.
+Warning: Access level of 'Bombness.MeTeen.start' changed to 'Partial' in file start.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file start.aspx.vb.    start.aspx.vb (Line 13)
+Removed attribute Codebehind from file admin\approve.aspx.
+Warning: Access level of 'Bombness.MeTeen.approve' changed to 'Partial' in file admin\approve.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\approve.aspx.vb.    admin\approve.aspx.vb (Line 13)
+'Reference' tag with reference to '~/request.aspx' added to file admin\approve.aspx.
+Removed attribute Codebehind from file admin\cleanup_db.aspx.
+Warning: Access level of 'Bombness.MeTeen.cleanup_db' changed to 'Partial' in file admin\cleanup_db.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\cleanup_db.aspx.vb.    admin\cleanup_db.aspx.vb (Line 13)
+Removed attribute Codebehind from file admin\gc.aspx.
+Warning: Access level of 'Bombness.MeTeen.gc1' changed to 'Partial' in file admin\gc.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\gc.aspx.vb.    admin\gc.aspx.vb (Line 13)
+Added folder App_Code\code.
+Moved file code\statsxp.vb to the App_Code\code\ directory.
+Moved file code\profiles.vb to the App_Code\code\ directory.
+Moved file code\calendar.vb to the App_Code\code\ directory.
+Reference to code-behind class 'Bombness.MeTeen.request' has been found in the file 'code\meteenrequest.vb' at line '680'. A stub class for 'Bombness.MeTeen.request' will be generated in 'App_Code\Migrated' folder.
+Moved file code\meteenrequest.vb to the App_Code\code\ directory.
+Reference to code-behind class 'Bombness.MeTeen.start' has been found in the file 'code\groups.vb' at line '10'. A stub class for 'Bombness.MeTeen.start' will be generated in 'App_Code\Migrated' folder.
+Moved file code\groups.vb to the App_Code\code\ directory.
+Warning: Access level of 'gc' changed to 'public' in file code\general.vb (Line 4).    code\general.vb (Line 4)
+Moved file code\general.vb to the App_Code\code\ directory.
+Moved file Global.asax.vb to the App_Code\ directory.
+Moved file code\language.vb to the App_Code\code\ directory.
+Moved file AssemblyInfo.vb to the App_Code\ directory.
+Moved file code\meteenbase.vb to the App_Code\code\ directory.
+Moved file code\classes.vb to the App_Code\code\ directory.
+Updated the attribute 'Inherits' with value 'Bombness.MeTeen.Migrated_start' in the file 'start.aspx'.
+Code file 'App_Code\Migrated\Stub_start_aspx_vb.vb' was created and contains an abstract class 'Migrated_start' used as a base class for the class 'Bombness.MeTeen.start'.    start.aspx.vb
+Updated the attribute 'Inherits' with value 'Bombness.MeTeen.Migrated_request' in the file 'request.aspx'.
+Code file 'App_Code\Migrated\Stub_request_aspx_vb.vb' was created and contains an abstract class 'Migrated_request' used as a base class for the class 'Bombness.MeTeen.request'.    request.aspx.vb
+Warning: Renamed folder Web References\ to App_WebReferences.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\mt.bombness.com.dll.
+Removed file Bin\mt.bombness.com.pdb.
+Removed file mt.bombness.com.vbproj.
+Removed file mt.bombness.com.vbproj.webinfo.
+Project mt.bombness.com.vbproj has been converted successfully at September 03 2006, 09:53:13.

@@ -1,0 +1,17 @@
+<script language="JavaScript" src="/richedit.js"></script>
+<h1>New Blog Entry</h1>
+<p>Use this page to create a new blog entry for your profile.</p>
+<form name="frmEntry" method="post" target="_top" action="profile-new-journal.mt">
+<b>Entry Title: <input type="text" name="title" value="Today's Update" maxlength="50"></b><br>
+<script language="JavaScript"><!--
+var editor = new EDITOR();
+editor.editorBGColor = "#B0D0F0";
+editor.editorBorder = "1px solid gray";
+editor.textBGColor = "#FFFFFF";
+editor.textBorder = "1px solid gray";
+editor.textFont = "Arial";
+editor.textFontSize = 10;
+editor.create("");
+//--> </script>
+<input type=submit value="Post Entry" onClick="rtoStore();" ID="Submit1" NAME="Submit1">
+</form>

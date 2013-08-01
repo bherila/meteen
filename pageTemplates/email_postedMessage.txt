@@ -1,0 +1,22 @@
+NOTE: Do not use your e-mail client's REPLY feature to reply to this message; it will not be received.
+-------------------------------------------
+
+$MESSAGE$
+
+-------------------------------------------
+The contents of this e-mail message is a message sent to
+$GROUPNAME$, a group that you belong to on MeTeen.com.
+Your user name on MeTeen.com is $USERNAME$.
+
+This message was posted by $POSTER$. To view his or her
+profile, visit the following URL:
+http://www.meteen.com/$POSTER$.me
+
+Your e-mail preferences in this group specify that you would
+like to receive e-mail copies of posted messages. If
+this is not the case, please visit your group, click on
+"Manage my Membership," and change your e-mail setting to
+"No E-Mail."
+
+You can visit this group online at:
+http://www.meteen.com/$URL$.gpp

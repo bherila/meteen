@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/meteen/imgsrv/Default.aspx" hash="fffffffe11e8fd32" filehash="16dd97e7f3af" flags="110000" assembly="App_Web_default.aspx.a8c62e96" type="ASP.imgsrv_default_aspx">
+    <filedeps>
+        <filedep name="/meteen/imgsrv/Default.aspx" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,30 @@
+<table width="100%"  border="0" cellspacing="0" cellpadding="16">
+<tr>
+<td><h1><a href="loggedin.asp">My MeTeen</a> &raquo; <a href="profile.asp?id=<%= CurrentUserID %>">My Profile</a> &raquo; My General Info </h1>
+<form name="form1" method="post" action="" ID="Form1">
+<table width="100%"  border="0" cellspacing="0" cellpadding="5">
+	<tr>
+		<td>User Name: </td>
+		<td>F_USERNAME</td>
+	</tr>
+	<tr>
+		<td>Password:</td>
+		<td><a href="change-password.mt">(Change)</a></td>
+	</tr>
+	<tr>
+		<td>School:</td>
+		<td>F_SCHOOL</td>
+	</tr>
+	<tr>
+		<td>Country:</td>
+		<td>F_COUNTRY</td>
+	</tr>
+	<tr>
+	<td><input name="action" type="hidden" id="action" value="update"></td>
+	<td><input name="imageField" type="image" src="/save.gif" width="57" height="21" border="0" ID="Image1"></td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>

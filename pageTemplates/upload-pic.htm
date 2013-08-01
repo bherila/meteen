@@ -1,0 +1,62 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="16" ID="Table1">
+	<tr>
+		<td><h1><a href="loggedin.asp">My MeTeen</a> » <a href="~user.ph">My Photos</a> » 
+				Upload Photo
+			</h1>
+			<p>Please fill out this simple form to upload a photo to your album. <STRONG>Important 
+					- the picture you upload may take up to 2 minutes to appear in your album after 
+					submitting this form. Don't submit duplicate photos!</STRONG>
+			</p>
+			<form action="photos-upload.aspx" method="post" enctype="multipart/form-data" name="form1"
+				ID="Form1">
+				<table width="700" border="0" cellspacing="0" cellpadding="10" ID="Table2">
+					<tr>
+						<td width="48"><img src="1.gif" width="48" height="48"></td>
+						<td align="left" valign="middle"><strong>Select File:<br>
+								<input type="file" name="file" style="BORDER-RIGHT: #657a50 1px solid; BORDER-TOP: #657a50 1px solid; BORDER-LEFT: #657a50 1px solid; WIDTH: 220px; BORDER-BOTTOM: #657a50 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff"
+									ID="File1"> </strong>
+						</td>
+						<td align="right" valign="middle"><em>JPG, GIF, BMP, or PNG are acceptable. </em>
+						</td>
+					</tr>
+					<tr bgcolor="#e9ebef">
+						<td><img src="2.gif" width="48" height="48"></td>
+						<td align="left" valign="middle"><strong>Photo Caption:<br>
+								<input name="caption" type="text" id="caption" style="BORDER-RIGHT: #657a50 1px solid; BORDER-TOP: #657a50 1px solid; FONT-WEIGHT: normal; BORDER-LEFT: #657a50 1px solid; WIDTH: 220px; BORDER-BOTTOM: #657a50 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff"
+									maxlength="50"> </strong>
+						</td>
+						<td align="right" valign="middle"><em>Shown on Album Page, Max 30 characters.</em></td>
+					</tr>
+					<tr>
+						<td><img src="3.gif" width="48" height="48"></td>
+						<td align="left" valign="middle"><strong>Photo Description:<br>
+								<input name="description" type="text" id="description" style="BORDER-RIGHT: #657a50 1px solid; BORDER-TOP: #657a50 1px solid; FONT-WEIGHT: normal; BORDER-LEFT: #657a50 1px solid; WIDTH: 220px; BORDER-BOTTOM: #657a50 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff"
+									maxlength="255"> </strong>
+						</td>
+						<td align="right" valign="middle"><em>Shown on Photo Page, Max 255 characters. </em>
+						</td>
+					</tr>
+					<tr bgcolor="#e9ebef">
+						<td><img src="4.gif" width="48" height="48"></td>
+						<td align="left" valign="middle"><strong>Choose a Privacy Level:</strong><br>
+							<input name="privacy" type="radio" value="0" checked ID="Radio1"> Everyone can 
+							see this photo<br>
+							<input name="privacy" type="radio" value="1" ID="Radio2"> Only my friends can 
+							see this photo
+						</td>
+						<td align="right" valign="middle">&nbsp;
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td align="left" valign="middle"><input name="imageField" type="image" src="upload.gif" width="57" height="21" border="0"
+								ID="Image1"></td>
+						<td align="right" valign="middle">&nbsp;</td>
+					</tr>
+				</table>
+				<input type="hidden" name="uid" value="%UID"> <input type="hidden" name="uname" value="%UNAME">
+			</form>
+			<p>&nbsp;</p>
+		</td>
+	</tr>
+</table>

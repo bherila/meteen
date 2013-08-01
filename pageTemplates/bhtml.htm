@@ -1,0 +1,149 @@
+<style type="text/css">
+<!--
+.style1 {
+	color: #990000;
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+}
+-->
+</style>
+<h1>All About BHTML</h1>
+<p>BHTML is a special subset of standard HTML (Hyper-text markup language) code which gives our users the power to use HTML formatting commands, while ensuring the security and safety of our members.</p>
+<p><strong>Basic Formatting </strong></p>
+<blockquote>
+  <p>As in HTML, text is formatted by surrounding text with format codes. Different codes exist for bold, italic, underline, strikethrough, and others. Below, you will find a table as reference that you can use in formatting your text.</p>
+</blockquote>
+<table border="1" align="center" cellpadding="2" cellspacing="2" bordercolor="#CCCCCC" bgcolor="#EBE9ED" ID="Table1">
+  <tr bgcolor="#E0DDE3">
+    <td width="150"><strong>Description</strong></td>
+    <td width="150"><strong>Code</strong></td>
+    <td width="150"><strong>Result</strong></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td width="150">Bold Text </td>
+    <td width="150" class="style1">&lt;b&gt;text&lt;/b&gt;</td>
+    <td width="150"><b>text</b></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td>Strong Text </td>
+    <td class="style1">&lt;strong&gt;text&lt;/strong&gt;</td>
+    <td><strong>text</strong></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td>Italic Text </td>
+    <td class="style1">&lt;i&gt;text&lt;/i&gt;</td>
+    <td><i>text</i></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td>Emphasized Text </td>
+    <td class="style1">&lt;em&gt;text&lt;/em&gt;</td>
+    <td><em>text</em></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td>Underlined Text </td>
+    <td class="style1">&lt;u&gt;text&lt;/u&gt;</td>
+    <td><u>text</u></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td>Strikethrough Text </td>
+    <td class="style1">&lt;strike&gt;text&lt;/strike&gt;</td>
+    <td><strike>text</strike></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td>Blinking Text </td>
+    <td class="style1">&lt;blink&gt;text&lt;/blink&gt;</td>
+    <td><blink>text</blink></td>
+  </tr>
+</table>
+<blockquote>
+  <p>Also note that the above &quot;tags&quot; can be nested to produce a combined effect. For example, <span class="style1">&lt;b&gt;&lt;i&gt;text&lt;/b&gt;&lt;/i&gt;</span> will result in <em><strong>text</strong></em>.</p>
+  <p>To embed a &lt; or a &gt; character, use <span class="style1">&amp;lt;</span> for the &lt; and <span class="style1">&amp;gt;</span> for the &gt;. </p>
+</blockquote>
+<p><strong>Smileys and Arrows </strong></p>
+<blockquote>
+  <p>BHTML supports 40 standard smiley codes, and the parser will replace smiley codes with the appropriate smiley image. For brevity, the codes are not listed here, but you will eventually come to terms with them as you see your work's output. </p>
+  <p>Arrow images can be created by using <tt class="style1">--&gt;</tt>, <tt class="style1">&lt;--</tt>, <tt class="style1">&lt;downarrow&gt;</tt>, and <tt class="style1">&lt;uparrow&gt;</tt>.</p>
+</blockquote>
+<p><strong>Font Formatting </strong></p>
+<blockquote>
+  <p>Text can also be formatted using fonts, sizes, and colors. To do this, you will need to create a font tag. Font tags are slightly more complex than basic formatting tags, but they are also slightly more powerful. Here is how you create a font tag: </p>
+</blockquote>
+<ul>
+  <li>Start with <tt class="style1">&lt;font</tt></li>
+  <li><em>Do you want to specify a size?
+  </em>    
+    <ul>
+      <li>If
+        yes: add <tt class="style1">size=&quot;#&quot;</tt> to your tag, replacing the # with a number from 1 to 7 inclusive, 1 being the smallest and 7 being the largest font size </li>
+    </ul>
+  </li>
+  <li><em>Do you want to specify a font face?
+  </em>    
+    <ul>
+      <li>If yes: add <tt class="style1">face=&quot;#&quot;</tt> to your tag, replacing the # with the font name you want to replace</li>
+      <li>Note: if the end user does not have the font you specified, he or she will merely see a system default font such as Times New Roman.</li>
+    </ul>
+  </li>
+  <li><em> Do you want to specify a font color?
+  </em>    
+    <ul>
+      <li>If yes: add <tt class="style1">color=&quot;#&quot;</tt> to your tag, replacing the # with either the name of the color or its hexadecimal equivalent code (<a href="hex.mt">more info</a>). </li>
+    </ul>
+  </li>
+  <li>End your font tag with a <tt class="style1">&gt;</tt></li>
+  <li>Close your font tag with a <tt class="style1">&lt;/font&gt;</tt> when you want to stop applying your new font settings.</li>
+</ul>
+<blockquote>
+  <p><strong>Important: </strong>Always make sure you end with a &lt;/font&gt; when you are finished. Otherwise, your font settings might escape the affected area. We do have precautions in place to prevent this from happening, but they might not always work perfectly.</p>
+</blockquote>
+<p><strong>Tables</strong></p>
+<blockquote>
+  <p>Tables can be easily created by using the following tags. Attributes of the table-related tags are fully supported. </p>
+  <table border="1" align="center" cellpadding="2" cellspacing="2" bordercolor="#CCCCCC" bgcolor="#EBE9ED" ID="Table2">
+    <tr bgcolor="#E0DDE3">
+      <td width="150"><strong>Description</strong></td>
+      <td width="150"><strong>Code</strong></td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+      <td width="150">Table Root Tag </td>
+      <td width="150" class="style1">&lt;table&gt;...&lt;/table&gt;</td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+      <td>Row Element </td>
+      <td class="style1">&lt;tr&gt;...&lt;/tr&gt;</td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+      <td>Cell Element </td>
+      <td class="style1">&lt;td&gt;...&lt;/td&gt;</td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+      <td>Header Cell </td>
+      <td class="style1">&lt;th&gt;...&lt;/th&gt;</td>
+    </tr>
+  </table>
+  <p><em>For more information on creating HTML tables, please see <a href="http://www.w3.org/TR/REC-html40/struct/tables.html" target="_blank">W3C: Tables in HTML Documents</a> (external link; opens in new window).</em></p>
+</blockquote>
+<p><strong>Images</strong></p>
+<blockquote>
+  <p>Images can be added to your pages, but must be stored on your own webspace or in your photo album. We do not support the BHTML embedding of photos from your photo album. Syntax to create an image reference is:</p>
+  <p class="style1">&lt;img src=&quot;http://address&quot;&gt;</p>
+  <p>Be sure to replace the contents of the SRC attribute with the full URL to the image you wish to include. As a best practice, please avoid including very large images on MeTeen.com pages. Please also avoid linking to slow servers, as they tend to bog down the loading of pages. </p>
+</blockquote>
+<p><strong>Forbidden Tags</strong></p>
+<blockquote>
+  <p>To ensure the safety and security of all our users, the following tags are disallowed and will not be rendered as HTML code:</p>
+</blockquote>
+<ul>
+  <li>IFRAME</li>
+  <li>FRAME</li>
+  <li>BODY</li>
+  <li>HTML</li>
+  <li>HEAD</li>
+  <li>SCRIPT</li>
+  <li>DIV</li>
+  <li>BUTTON</li>
+  <li>STYLE</li>
+  <li>INPUT</li>
+  <li>FORM</li>
+  <li>TEXTAREA</li>
+</ul>

@@ -1,0 +1,90 @@
+/* CSS Tag Definitions */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	background-color: #EEE3C1;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+td
+{
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+}
+
+/* CSS Classes */
+.nav {	color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px none;
+	cursor: hand;
+	text-decoration: none;
+	padding: 1px;
+}
+.code {
+  font-family: Courier New, Monospace;
+  font-size: 12px;
+  margin: 10px;
+  padding: 0px;
+  color: blue;
+}
+
+.hdr
+{
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #003366;
+	color: #003366;
+}
+
+.nav_hdr
+{
+    background-color: #EBE9ED;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	color: #666666;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.nav_item
+{
+    margin: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: normal;
+	font-size: 12px;
+	border: 1px solid #E0E0E0;
+	color: #666666;
+	background-color: Window;
+	text-decoration: none;
+}
+.nav_item:hover
+{
+	border: 1px solid #CCCCCC;
+	color: #000000;
+}
+.nav_item:click
+{
+    background-color: #FFFFCC;
+    color: #000000;
+}
+
+.nav_box
+{
+	text-decoration: none;
+	border-left: 3px solid #CCCCCC;
+	padding-left: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}

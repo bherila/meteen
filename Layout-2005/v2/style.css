@@ -1,0 +1,70 @@
+/* CSS Document */
+body {
+	background-color: #596079;
+	margin: 0px;
+}
+body, td, th, p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+.style1 {color: #C0C5D1}
+.upperBox {}
+input.text, input.button, textarea, select, div.kill-droplist {
+	border: 1px solid gray;
+	border-color:#000;
+	color:#000;
+	background-color:#F7F8F9;
+}
+input.text, textarea, select {
+	background-color:#F7F8F9;
+	font:8pt "Verdana","Arial","Helvetica",sans-serif;
+	font-weight:normal;
+	border-radius:.4em;
+}
+input.text:focus, input.text:focus, textarea:focus {
+	background-color:#F7F8F9;
+}
+input.button:hover, input.button:focus {
+	background-color:#F7F8F9
+}
+input.button:active {
+	background-color:#F7F8F9
+}
+input.button[disabled] {
+	border-color:#CCC;
+	color:#333;
+	background-color:#F7F8F9
+}
+input.button {
+	border:1px solid #8E97AC;
+	padding:0 .1em;
+	cursor:hand;
+	border-radius:.3em;
+	-moz-border-radius:.3em;
+	font-size: 8pt;
+	font-family: Arial;
+}
+input.text, textarea, select {
+	border:1px solid #8E97AC;
+	letter-spacing:0px;
+}
+h1
+{
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-size: 18pt;
+}
+.navigation
+{
+	border-radius:.4em;
+	-moz-border-radius:.4em;
+	border: 1px solid #8E97AC;
+	background-color: #D6D9E0;
+	padding: 3px;
+	text-decoration:none;
+	color: #000000;
+}
+.navigation:hover
+{
+	background-color: #EAEBEE;
+}

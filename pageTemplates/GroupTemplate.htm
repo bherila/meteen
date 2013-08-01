@@ -1,0 +1,105 @@
+<style>
+h1
+{
+font-family: Trebuchet MS, Verdana, Arial, Helvetica;
+font-size: 15pt;
+font-weight: bold;
+border-bottom: 1px solid gray;
+color: gray;
+}
+h2
+{
+font-family: Trebuchet MS, Verdana, Arial, Helvetica;
+font-size: 13pt;
+font-weight: bold;
+border-bottom: 1px solid gray;
+color: gray;
+}
+h3, h4, h5, h6
+{
+font-family: Trebuchet MS, Verdana, Arial, Helvetica;
+font-size: 12pt;
+font-weight: normal;
+border-bottom: 1px solid gray;
+color: gray;
+}
+.actionButton
+{
+width: 100%;
+border: 2px outset gray;
+background-color: #EEEEEE;
+color: Navy;
+text-decoration: underline;
+cursor: Hand;
+}
+</style>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" ID="Table1">
+	<tr align="left" valign="top">
+		<td colspan="3" align="center" style="font-size: 20pt; padding-bottom: 5px;font-family: Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica;">!GROUPNAME</td>
+	</tr>
+	<tr align="center" valign="middle">
+		<td colspan="3" style="padding-bottom: 15px;font-size: 9pt; font-family: Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica;"><em>!SUBTITLE</em></td>
+	</tr>
+	<tr align="left" valign="top">
+		<td width="150"><table width="100%" border="0" cellpadding="4" cellspacing="0" style="border: 1px solid gray; font-size: 9pt; font-family: Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica;"
+				ID="Table2">
+				<tr>
+					<td bgcolor="#FBEFBF" style="border-bottom: 1px solid silver;">Group Navigation
+					</td>
+				</tr>
+				<tr>
+					<td>!GROUPLINKS</td>
+				</tr>
+			</table>
+			<br>
+			<table width="100%" border="0" cellpadding="4" cellspacing="0" style="border: 1px solid gray; font-size: 9pt; font-family: Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica;"
+				ID="Table3">
+				<tr>
+					<td bgcolor="#FBEFBF" style="border-bottom: 1px solid silver;">Group Summary
+					</td>
+				</tr>
+				<tr>
+					<td style="padding-left: 0px;"><ul style="margin-left: 0px; padding-left: 10px;">
+							!MEMBERCOUNT<br>
+							Founded !FDATE<br>
+							!OPEN?<br>
+							!MODERATED?<br>
+							!POSTPERMISSIONS?<br>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<table width="100%" border="0" cellspacing="0" cellpadding="4" style="border: 1px solid gray; font-size: 9pt; font-family: Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica;"
+				ID="Table5">
+				<tr>
+					<td bgcolor="#FBEFBF" style="border-bottom: 1px solid silver;">Activity (Last 7 
+						Days)</td>
+				</tr>
+				<tr>
+					<td align="center" valign="middle">!ACTIVITYLIST</td>
+				</tr>
+			</table>
+		</td>
+		<td style="padding-left: 5px; padding-right: 5px;">!CONTENTREGION</td>
+		<td width="155"><table width="100%" border="0" cellspacing="0" cellpadding="4" style="border: 1px solid gray; font-size: 9pt; font-family: Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica;"
+				ID="Table4">
+				<tr>
+					<td bgcolor="#FBEFBF" style="border-bottom: 1px solid silver;">Get Involved!</td>
+				</tr>
+				<tr>
+					<td align="center" valign="middle">!ACTIONS</td>
+				</tr>
+			</table>
+			<br>
+			<table width="100%" border="0" cellspacing="0" cellpadding="4" style="border: 1px solid gray; font-size: 9pt; font-family: Trebuchet MS, Trebuchet, Verdana, Arial, Helvetica;"
+				ID="Table6">
+				<tr>
+					<td bgcolor="#FBEFBF" style="border-bottom: 1px solid silver;">Member List</td>
+				</tr>
+				<tr>
+					<td align="center" valign="middle" style="padding: 0px;">!MEMBERS</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

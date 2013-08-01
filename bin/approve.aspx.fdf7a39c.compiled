@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/meteen/admin/approve.aspx" hash="fffffffe11e8fd32" filehash="8a5eafe9bb79a11c" flags="110000" assembly="App_Web_approve.aspx.fdf7a39c" type="ASP.admin_approve_aspx">
+    <filedeps>
+        <filedep name="/meteen/admin/approve.aspx" />
+        <filedep name="/meteen/admin/approve.aspx.vb" />
+        <filedep name="/meteen/request.aspx" />
+        <filedep name="/meteen/request.aspx.vb" />
+    </filedeps>
+</preserve>

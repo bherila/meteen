@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/meteen/admin/gc.aspx" hash="fffffffe11e8fd32" filehash="d412034f49cb02f5" flags="110000" assembly="App_Web_gc.aspx.fdf7a39c" type="ASP.admin_gc_aspx">
+    <filedeps>
+        <filedep name="/meteen/admin/gc.aspx" />
+        <filedep name="/meteen/admin/gc.aspx.vb" />
+    </filedeps>
+</preserve>

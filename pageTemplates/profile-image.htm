@@ -1,0 +1,42 @@
+<table width="100%"  border="0" cellspacing="0" cellpadding="16" ID="Table1">
+<tr>
+    <td><h1>Edit Profile Photo </h1>
+    <p align="center"><em><strong>Please make sure that you only upload photos of yourself! All other images will be deleted. Please save both of us some time and energy by NOT uploading irrelevant pictures. Thank you! </strong></em></p>
+    <table width="600"  border="0" align="center" cellpadding="0" cellspacing="0" style="border: 1px solid black;" ID="Table2">
+        <tr>
+        <td height="30" bgcolor="#6A8154"><div align="center"><span class="style1">Current Photo </span></div></td>
+        </tr>
+        <tr>
+        <td align="center" valign="middle" bgcolor="#D1DBC8"><img src="/imgsrv?f=CURRENT_PIC.me" vspace="10" border="1"></td>
+        </tr>
+    </table>
+    <form action="profile-image.aspx" method="post" enctype="multipart/form-data" ID="Form1">
+        <div align="center">
+        <p>
+            <input name="file" type="file" id="file" size="30">
+            <input type="submit" name="Submit" value="Set" onClick="if (document.getElementById('file').value == '') {return confirm('Are you sure you want to clear your current picture?');} else {return true;}" ID="Submit1">
+            <input type="button" name="Button" value="Cancel" onClick="history.back(1);" ID="Button1">
+            <input name="userid" type="hidden" id="userid" value="CURRENTUSERID">
+            <input name="return" type="hidden" id="return" value="RETURN_URL">
+        </p>
+        </div>
+    </form>
+    <div align="center"><strong>Tips for Uploading Photos</strong></div>
+    <ul>
+        <li>Try and get it as close as you can to 350x300 pixels. Our server will make your image 350 pixels wide and scale the vertical dimension proportionally, but it might become really tall as a result.<br>
+&nbsp;</li>
+        <li>Avoid using pictures in the &quot;Portrait&quot; orientation. Use &quot;Landscape&quot; instead. Pictures work best when they are wider than they are tall.<br>
+&nbsp; </li>
+        <li>Upload the highest-resolution version of your picture that you have. Our server will automatically scale it down if it's too large. Quality is only lost when we have to scale your image up.<br>
+&nbsp; </li>
+        <li>Crop your photos before uploading them. This way you avoid wasting space with the background, and your presence in the picture will be more vivid.<br>
+&nbsp;</li>
+        <li>Don't upload inappropriate material since it will just get deleted.<br>
+&nbsp; </li>
+        <li> <strong>You may only upload pics of yourself as your profile picture. All other items will be deleted. </strong><br>
+&nbsp;</li>
+        <li>Be creative and have fun! </li>
+    </ul>
+    <p>&nbsp;</p></td>
+</tr>
+</table>

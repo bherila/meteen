@@ -1,0 +1,42 @@
+<table width="100%"  border="0" cellspacing="0" cellpadding="16" ID="Table1">
+<tr>
+<td><h1>Search</h1>
+    <form name="form1" method="get" action="request.aspx?target=browse" ID="Form1">
+    <table width="100%"  border="0" cellspacing="0" cellpadding="0" ID="Table2">
+        <tr align="left" valign="top">
+        <td rowspan="2"><table width="400"  border="0" cellspacing="0" cellpadding="5" ID="Table3">
+        <tr>
+        <td align="right">gender</td>
+        <td><select name="gender" id="gender">
+            <option value="-1" selected >guys and girls</option>
+            <option value="0" >guys only</option>
+            <option value="1" >girls only</option>
+        </select></td>
+        <td align="right" valign="middle">photo? 
+            <input name="photo" type="checkbox" id="photo" value="1"></td>
+        </tr>
+        <tr align="left" valign="middle">
+        <td align="right">school</td>
+        <td colspan="2"><!-- SCHOOLSEL --></td>
+        </tr>
+        <tr align="left" valign="middle">
+        <td align="right">keyword</td>
+        <td colspan="2"><input name="keywords" type="text" id="keywords" value=""></td>
+        </tr>
+        <tr align="left" valign="middle">
+        <td align="right"><input name="search" type="hidden" id="search" value="yes"></td>
+        <td colspan="2"><input name="imageField" type="image" src="go.gif" width="57" height="21" border="0" ID="Image1"></td>
+        </tr>
+        </table></td>
+        <td align="center" nowrap><strong>Some Random Members </strong></td>
+        </tr>
+        <tr align="left" valign="top">
+        <td align="right"><table width="100%"  border="0" cellspacing="0" cellpadding="5" ID="Table5">
+<!-- RANDOMUSERS -->
+        </table></td>
+        </tr>
+    </table>
+    </form>
+</td>
+</tr>
+</table>

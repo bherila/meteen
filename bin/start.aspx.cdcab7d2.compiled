@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/meteen/start.aspx" hash="fffffffe11e8fd32" filehash="9533b3904aca7417" flags="110000" assembly="App_Web_start.aspx.cdcab7d2" type="ASP.start_aspx">
+    <filedeps>
+        <filedep name="/meteen/start.aspx" />
+        <filedep name="/meteen/start.aspx.vb" />
+    </filedeps>
+</preserve>

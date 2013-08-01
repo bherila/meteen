@@ -1,0 +1,20 @@
+Hey $USERNAME$,
+
+$POSTER$ has just posted an announcement on $GROUPNAME$, a
+group you belong to on MeTeen.com.
+
+To view this announcement, visit the following URL:
+http://www.meteen.com/$URL$.gpp
+
+AOL Users click here:
+<a href="http://www.meteen.com/$URL$.gpp">Visit My Group</a>
+
+
+
+
+-------------------------------------------
+Your e-mail preferences in this group specify that you would
+like to receive e-mail notifications of special events. If
+this is not the case, please visit your group, click on
+"Manage my Membership," and change your e-mail setting to
+"No E-Mail."

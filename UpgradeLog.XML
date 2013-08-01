@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="mt.bombness.com">
+</Property><Property Name="Solution File" Value="D:\webs\meteen\mt.bombness.com.sln">
+</Property><Property Name="Date" Value="Sunday, September 03, 2006">
+</Property><Property Name="Time" Value="9:52:46 AM">
+</Property></Properties><Event ErrorLevel="1" Project="mt.bombness.com.vbproj" Source=" mt.bombness.com.vbproj:(Warning List)" Description="Warning: The code file code\language.vb is not valid code file.    code\language.vb&#xA;">
+</Event><Event ErrorLevel="1" Project="mt.bombness.com.vbproj" Source=" mt.bombness.com.vbproj:(Warning List)" Description="ERROR: Unable to parse file code\language.vb.&#xA;">
+</Event><Event ErrorLevel="1" Project="mt.bombness.com.vbproj" Source=" mt.bombness.com.vbproj:(Warning List)" Description="Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.&#xA;">
+</Event><Event ErrorLevel="2" Project="mt.bombness.com.vbproj" Source=" mt.bombness.com.vbproj:(Error List)" Description="ERROR: The following files were not migrated because they were not found in the project file or the associated 'BuildAction' is set to 'None'.&#xA;You may need to exclude these files from the project after the conversion process in order to compile your web site: &#xA;File List == meteenpage.vb.&#xA;">
+</Event><Event ErrorLevel="0" Project="mt.bombness.com.vbproj" Source="mt.bombness.com.vbproj" Description="Converted.&#xA;There may be some unresolved conversion issues you will need to manually fix. For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic &quot;Converting from Visual Studio .NET 2002 or 2003&quot;.">
+</Event><Event ErrorLevel="3" Project="mt.bombness.com.vbproj" Source="mt.bombness.com.vbproj" Description="Converted">
+</Event></UpgradeLog>

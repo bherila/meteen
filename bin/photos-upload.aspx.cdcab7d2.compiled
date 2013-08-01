@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/meteen/photos-upload.aspx" hash="fffffffe11e8fd32" filehash="a7e24d3853725b1b" flags="110000" assembly="App_Web_photos-upload.aspx.cdcab7d2" type="ASP.photos_upload_aspx">
+    <filedeps>
+        <filedep name="/meteen/photos-upload.aspx" />
+        <filedep name="/meteen/photos-upload.aspx.vb" />
+        <filedep name="/meteen/request.aspx" />
+        <filedep name="/meteen/request.aspx.vb" />
+    </filedeps>
+</preserve>

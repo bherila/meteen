@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/meteen/newthread.aspx" hash="fffffffe11e8fd32" filehash="23486529daa3f398" flags="110000" assembly="App_Web_newthread.aspx.cdcab7d2" type="ASP.newthread_aspx">
+    <filedeps>
+        <filedep name="/meteen/newthread.aspx" />
+        <filedep name="/meteen/newthread.aspx.vb" />
+    </filedeps>
+</preserve>

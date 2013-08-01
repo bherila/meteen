@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/meteen/profile-image.aspx" hash="fffffffe11e8fd32" filehash="2d334b788b9b52ab" flags="110000" assembly="App_Web_profile-image.aspx.cdcab7d2" type="ASP.profile_image_aspx">
+    <filedeps>
+        <filedep name="/meteen/profile-image.aspx" />
+        <filedep name="/meteen/profile-image.aspx.vb" />
+    </filedeps>
+</preserve>

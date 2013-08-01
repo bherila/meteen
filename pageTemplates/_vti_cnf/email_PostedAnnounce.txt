@@ -1,0 +1,11 @@
+vti_encoding:SR|utf8-nl
+vti_author:SR|BN\\Administrator
+vti_modifiedby:SR|BN\\Administrator
+vti_timelastmodified:TR|09 Dec 2005 20:44:47 -0000
+vti_timecreated:TR|09 Dec 2005 20:36:22 -0000
+vti_lineageid:SR|{31BB3A6E-C0E1-4A71-8DF3-DAADF858566F}
+vti_extenderversion:SR|5.0.2.6738
+vti_backlinkinfo:VX|
+vti_nexttolasttimemodified:TW|09 Dec 2005 20:44:41 -0000
+vti_cacheddtm:TX|09 Dec 2005 20:44:41 -0000
+vti_filesize:IR|593
